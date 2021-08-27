@@ -21,6 +21,7 @@
 
   <main class="flex-row justify-space-between">
     <dvi class="col-12 col-md-4">
+      
       <div class="card">
         <h3 class="card-header text-uppercase">Search By User</h3>
         <form id="user-form" class="card-body">
@@ -28,6 +29,15 @@
           <input type="text" name="username" id="username" autofocus="true" class="form-input"/>
           <button type="submit" class="btn">Get User</button>
         </form>
+      </div>
+
+      <div class="card">
+        <h3 class="card-header text-uppercase">Search By Topic</h3>
+        <div class="card-body" id="language-buttons">
+          <button class="btn" data="data-language">JavaScript</button>
+          <button class="btn" data="data-language">HTML</button>
+          <button class="btn" data="data-language">CSS</button>
+        </div>
       </div>
     </dvi>
     
